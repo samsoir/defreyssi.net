@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  {{ partial "head" . }}
+  <body>
+    <!-- Content all templates share -->
+    {{ block "main" . }}
+      <!-- The part of the page content goes here -->
+    {{ end }}
+    {{ block "footer" . }}
+    <!-- More shared code for a footer -->
+    {{ end}}
+  </body>
+</html>

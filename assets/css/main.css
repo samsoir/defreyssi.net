@@ -1,0 +1,11 @@
+body {
+  background-color: #202020;
+  color: #DCDCDC
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 20pt;
+  text-transform: uppercase;
+  font-weight: normal;
+}
