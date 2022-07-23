@@ -1,13 +1,7 @@
 {{ define "main" }}
   <main aria-role="main">
     <header class="homepage-header">
-      <h1>{{.Title}}</h1>
-      {{ with .Params.subtitle }}
-      <span class="subtitle">{{.}}</span>
-      {{ end }}
+      <h1><span class="red lowercase">de</span> Freyssinet</h1>
     </header>
-    <div class="homepage-content">
-      {{.Content}}
-    </div>
   </main>
 {{ end }}

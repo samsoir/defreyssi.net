@@ -13,5 +13,8 @@ hugo.linux
 /.hugo_build.lock
 
 # Exclude Vim temporary files
-.tmp
-.swp 
+*.tmp
+*.swp 
+
+# Exclude macOS junk
+.DS_Store
