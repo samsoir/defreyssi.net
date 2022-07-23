@@ -18,3 +18,11 @@ hugo.linux
 
 # Exclude macOS junk
 .DS_Store
+
+# Exclude GCP Keys
+/_keys
+
+# Exclude Terraform
+*.tfstate*
+/.terraform/
+*.terraform.lock*
