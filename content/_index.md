@@ -1,5 +1,5 @@
 ---
-title: de Freyssinet
+title: Maison de Freyssinet
 draft: false
 ---
 # de Freyssinet
